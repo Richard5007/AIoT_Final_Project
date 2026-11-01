@@ -1,0 +1,26 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Large AQI Dataset Files (Per DESIGN.md, raw and processed CSVs are generated locally)
+*.csv
+*.zip
+*.tar.gz
+!data/**/README.md
+!data/**/*.md
+~$*.pptx
+~$*.docx
